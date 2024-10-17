@@ -1,0 +1,12 @@
+.avatar-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between avatars as needed */
+  }
+
+minidenticon-svg svg {
+    border-radius: 50%;
+    background-color: rgb(71, 68, 68);
+    height: 58px;
+    width: 58px;
+  };
